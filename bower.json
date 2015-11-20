@@ -1,0 +1,26 @@
+{
+  "name": "Infrastructure",
+  "version": "0.0.1",
+  "private": true,
+  "homepage": "https://github.com/VladyslavIstomin/cdp-infrastructure",
+  "authors": [
+    "Istomin Vladyslav"
+  ],
+  "description": "Infrastructure final task",
+  "keywords": [
+    "infrastructure",
+    "tutorial",
+    "introduction",
+    "cdp",
+    "epam"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

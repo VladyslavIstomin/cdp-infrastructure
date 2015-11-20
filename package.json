@@ -1,0 +1,37 @@
+{
+  "name": "InfrastructureTask",
+  "version": "0.0.1",
+  "description": "Final task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VladyslavIstomin/cdp-infrastructure.git"
+  },
+  "keywords": [
+    "gulp",
+    "tutorial",
+    "infrastructure",
+    "epam"
+  ],
+  "author": "Vladyslav Istomin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VladyslavIstomin/cdp-infrastructure/issues"
+  },
+  "homepage": "https://github.com/VladyslavIstomin/cdp-infrastructure",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-copy": "0.0.2",
+    "gulp-csso": "^1.0.0",
+    "gulp-jscs": "^3.0.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-less": "^3.0.3",
+    "gulp-uglify": "^1.2.0",
+    "gulp-util": "^3.0.6",
+    "jshint": "^2.8.0"
+  }
+}
