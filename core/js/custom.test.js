@@ -10,7 +10,7 @@ describe('check function "makeSum"', function () {
 	});
 
 	it('3 should return Error', function () {
-		expect(function() { makeSum('4');}).toThrowError(TypeError, 'A or B is not exists');
+		expect(function() { makeSum('5');}).toThrowError(TypeError, 'A or B is not exists');
 	});
 
 	it('4 should return Error', function () {
