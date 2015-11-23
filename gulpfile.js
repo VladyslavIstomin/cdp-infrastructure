@@ -77,3 +77,5 @@ function errorHandler(err){
     util.log(util.colors.red('Error'), err.message);
     this.end();
 }
+
+gulp.task('default', ['test']);
