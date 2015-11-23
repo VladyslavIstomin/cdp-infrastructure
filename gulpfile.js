@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var bower = require('gulp-bower');
 var jscs = require('gulp-jscs');
 var jshint = require('gulp-jshint');
 var util = require('gulp-util');
@@ -26,6 +27,11 @@ var config = {
         js: 'bower_components/bootstrap/js/*.js'
     }
 };
+
+gulp.task('bower', function () {
+    return bower()
+        .pipe(gulp.dest('bower_components'));
+});
 
 gulp.task('jscs', function() {
     return gulp.src(config.core.js)
