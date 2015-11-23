@@ -18,5 +18,6 @@
 	"scripturl"     : true,
 	"shadow"        : false,
 	"supernew"      : false,
-	"undef"         : true
+	"undef"         : true,
+	"predef": [ "it", "require", "describe", "expect", "module" ]
 }

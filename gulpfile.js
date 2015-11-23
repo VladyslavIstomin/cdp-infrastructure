@@ -7,13 +7,14 @@ var csso = require('gulp-csso');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
 var copy = require('gulp-copy');
+var jasmine = require('gulp-jasmine');
 
 var config = {
     core: {
         folder: 'core',
         style: 'core/less/**/*.less',
         js: 'core/js/**/*.js',
-        test: '!core/js/**/*.test.js'
+        test: 'core/js/**/*.test.js'
     },
     build: {
         folder: 'build',
@@ -48,7 +49,7 @@ gulp.task('css', function () {
 });
 
 gulp.task('js', function () {
-    return gulp.src([config.bootstrap.js, config.core.js, config.core.test])
+    return gulp.src([config.bootstrap.js, config.core.js, '!' + config.core.test])
         .pipe(concat('all.js'))
         .pipe(uglify())
         .on('error', errorHandler)
@@ -58,6 +59,11 @@ gulp.task('js', function () {
 gulp.task('html', function() {
     return gulp.src('index.html')
         .pipe(copy(config.build.folder, {prefix:0}));
+});
+
+gulp.task('test', function () {
+    return gulp.src(config.core.test)
+        .pipe(jasmine());
 });
 
 

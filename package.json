@@ -27,6 +27,7 @@
     "gulp-concat": "^2.6.0",
     "gulp-copy": "0.0.2",
     "gulp-csso": "^1.0.0",
+    "gulp-jasmine": "^2.2.1",
     "gulp-jscs": "^3.0.2",
     "gulp-jshint": "^2.0.0",
     "gulp-less": "^3.0.3",
