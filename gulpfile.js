@@ -45,7 +45,7 @@ gulp.task('jshint', function() {
         .pipe(jshint.reporter());
 });
 
-gulp.task('css', function () {
+gulp.task('css', ['bower'], function () {
     return gulp.src([config.core.style, config.bootstrap.style])
         .pipe(less())
         .pipe(concat('all.css'))
@@ -54,7 +54,7 @@ gulp.task('css', function () {
         .pipe(gulp.dest(config.build.style));
 });
 
-gulp.task('js', function () {
+gulp.task('js', ['bower'], function () {
     return gulp.src([config.bootstrap.js, config.core.js, '!' + config.core.test])
         .pipe(concat('all.js'))
         .pipe(uglify())
@@ -78,4 +78,5 @@ function errorHandler(err){
     this.end();
 }
 
-gulp.task('default', ['test']);
+gulp.task('default', ['test', 'jshint', 'jscs']);
+gulp.task('build', ['css', 'js', 'html']);
