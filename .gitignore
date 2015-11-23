@@ -25,15 +25,17 @@ coverage
 # Compiled binary addons (http://nodejs.org/api/addons.html)
 build/Release
 
+# Webstorm project folder
+.idea
+
 # Dependency directory
 # https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
 node_modules
 
-# Webstorm project folder
-.idea
-
 # Bower components
 bower_components
+
+# Source
+
+# Compile source
 build
-assets
-release
