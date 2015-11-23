@@ -54,7 +54,7 @@ gulp.task('css', ['bower'], function () {
         .pipe(gulp.dest(config.build.style));
 });
 
-gulp.task('js', ['bower'], function () {
+gulp.task('js', ['unitTest', 'jshint', 'jscs', 'bower'], function () {
     return gulp.src([config.bootstrap.js, config.core.js, '!' + config.core.test])
         .pipe(concat('all.js'))
         .pipe(uglify())
@@ -67,7 +67,7 @@ gulp.task('html', function() {
         .pipe(copy(config.build.folder, {prefix:0}));
 });
 
-gulp.task('test', function () {
+gulp.task('unitTest', function () {
     return gulp.src(config.core.test)
         .pipe(jasmine());
 });
@@ -78,5 +78,4 @@ function errorHandler(err){
     this.end();
 }
 
-gulp.task('default', ['test', 'jshint', 'jscs']);
-gulp.task('build', ['css', 'js', 'html']);
+gulp.task('default', ['css', 'js', 'html']);
