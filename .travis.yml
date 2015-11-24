@@ -7,28 +7,4 @@ script: gulp
 deploy:
   provider: heroku
   api_key:
-    secure: "MIIEowIBAAKCAQEAmfFqXrBrkUF8BGA5z5dsm5VOfvLYVh7x4KKydBpWRWkdDZGv
-             YVO8O09APv1Whl5CQ/g5jiTwyqnxOm9HxQd74uk5+Ir6RdagjJrSJIvlAtOFYFDi
-             zM2P1ALYDJ+JzeG2wgMTbQrQXDLRNJCNmbPb5Rwd8h5G+bBj0dcM0IlD7YGIq38a
-             JcqZTBEP4x1CmbKvrTziSfwQLbtsnCNT8Sg4C6Y9rwFHwQEmpRSWHK5UMOMWElbo
-             JrJsp/g9yJUDdADam59IDlgO44tx9TPyso6rOpcmyzVUUjKzN4Bk+p4d2l5tkvCm
-             gcJBDOsxWSPHr82DzN/hxq3KuitXqC1IcpaWgwIDAQABAoIBAFg//1ydAm1Y/wF7
-             MGkDQ63FYCSCjuaAAuVmH6tTVdWgtpkKxWGkISpW+luh27JX4uEYMdZ88tUbq0B2
-             fsxCyBCC50rGUUcsDQnNz15IHFcMb0+RzxLdXPCLWNOTueoe1ShPnxlJs7zHHQtn
-             OuW8J/klrz0XglSte+vVvnDl390NG1sgzvwzZeAVYKVsrJQ3J/SGCMstWysDinfN
-             jjKahbfyE4MVwnYiaitgaMhLAqs+Gji2FzJd4Llv9wHweVoBG+Y9McvoSvLqYAGT
-             GGgGZuCcTODzXQvo4jMREhCn5nFmU+YHMFbewGl0+I+KnzQz8WATk0Vd9ljRH9+1
-             B3hHmXECgYEAzCyByDWjUwZQ48mNqRco9mzkSteQQ5oigD3BEJWSLQA+TKHU/1S8
-             j09qinFnqTYno2phNeaNbjmDKZU8yKphH8tIj+MrknADfSVlPYqIwtCMAcUXeURO
-             y9GnkbE8t6LoVJ97yX2k3B+aaoobMNMx9DzE7jC6RmuuOb3zxwgi5fcCgYEAwQTX
-             cod2GQSL2YzbiMTP7vKLYyz8ZwFdft9+jfunigattNzd92tgS2pAhhHsOgQd2E0P
-             P8zmU0wKzjjTm5jOQYsrc1qZJi2xVoKuADYN5rspkMjmAjLSg5Ln4F8MjuMV9Rty
-             a+P5CjfkPnHMDJLp8Axbokn3omfCKikm77KMwNUCgYBiRBF6gIZI0UNhPoJVnXXz
-             lFkTxEgEoUx1mEMxbitaSUGytDjFYs0V1E0csJQJlqzhM7PxszLil/+OpesJUSdJ
-             nBciWV2BLzQeqT7eraxAxwp7V5aCoOOjqRYTQtBMObXD9LYpNbWA1B0HpcyMZTkn
-             qY/Ga+FbPzwtQkTvx/Sz5QKBgBaEFxHgJXGjqyC0osNgmhT4rDPkgokNireLILs1
-             WQTr5IWNokMDfpctjNtW6eSWqFicHKRHpbKf0z7dOCoVeDIDJw1syyK9/8rksaGK
-             rLJ2sNGX7eThwtbgYzY0QEXGzb/q9L0LOfjsLi7unWv2E14SQvo6gK2sRuUeKdGa
-             VXsFAoGBAJTZXfM89LbAqltt8RFHAuWdhw321KyqckM8r+FF7uAPQFyY4qV44QEU
-             /ngEaBVh/pnYX3gy3SXAqGE0WZxzXzzLhd8tVQpdA0P7zd7/jCShXbw3a6DcWUcc
-             m6NhgmtLMgYIbcmyvInd7fYSlEw7Np3c7Rbb25PqQSG/4U43+hE8"
+    secure: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCZ8WpesGuRQXwEYDnPl2yblU5+8thWHvHgorJ0GlZFaR0Nka9hU7w7T0A+/VaGXkJD+DmOJPDKqfE6b0fFB3vi6Tn4ivpF1qCMmtIki+UC04VgUOLMzY/UAtgMn4nN4bbCAxNtCtBcMtE0kI2Zs9vlHB3yHkb5sGPR1wzQiUPtgYirfxolyplMEQ/jHUKZsq+tPOJJ/BAtu2ycI1PxKDgLpj2vAUfBASalFJYcrlQw4xYSVugmsmyn+D3IlQN0ANqbn0gOWA7ji3H1M/Kyjqs6lybLNVRSMrM3gGT6nh3aXm2S8KaBwkEM6zFZI8evzYPM3+HGrcq6K1eoLUhylpaD Vladyslav_Istomin@EPUAKHAW0904"
