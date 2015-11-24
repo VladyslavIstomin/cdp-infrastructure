@@ -7,4 +7,4 @@ script: gulp
 deploy:
   provider: heroku
   api_key:
-    secure: "LORNZA3UBtiRb36Vuq4XI3J0w/X3hPjI3CXRHXYJVL4Llno8cbjtk4A5rZPZdU8yylVhj3ahwSJowSp73qp7pr/BBvZXsbQkeNM4a1oSvPjsEzC0D5p4jqh+c10pGQ9Pyd7uJOuURALqsYEo1guOBzcyDjCcoJwmRNuyfTgBqaM="
+    secure: "g+L1aPEoF6IIOteQk9DVcwzznU/h466Ymc3K7p9CMNlYNFdfpe9r3dviei1+R4juUD2ouVTrEteArrRxp7p4S0LRsJnwtgpPiAIf7DtIncfIGw/DsVSjG/1gTzqUyvUSlL24lY+4LCMhBUOuu+L0r4QP8vgZRw1y2aGirdRAiVU="
