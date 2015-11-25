@@ -5,9 +5,6 @@ before_script:
 - npm install -g gulp
 script: gulp
 deploy:
-  provider: npm
-  email: slevins2008@mail.ru
+  provider: heroku
   api_key:
-    secure: 389d8308-c992-4a89-bd31-84cc9e94fae8
-  on:
-    tags: true
+    secure: Q7EWVYKlGJGStXbZaKY+nH4Ca03PcJNtPbcfaMnKipA2pgICcCLPubjK9lvddsFPutgCl3TdAbP6qop55rOMvOufNgw961M3drT018s92b5U91zA42KzIMN4hFuKNGWgBXmfOsBUHeumO4IDaFZONBz65W9VfLFWacgtnbWZiyPom8e1vcN4+sGHlGzrFsdXywZ6QzX4K+/9mnFjlcqBCcjqrKRDmqjqts+hI8ID2kD2Uj1cHFDkteM2NkuEVfHiqYmiYZFDxg+7ohBu9IxMHyIEiTriz8zA2uQCIFNQA4J+TsPU6SpAoBNGggFMCyiEQUfwHq9Bwscdg+UPDC4KHc8XEiVn1iNd4QUk6PC8PmvrxtcJaeasuaKPhrKFgXxAzrovYtJ8i0YG4Nu6bBAc9rQtdPwgtyZQ07ry7l90DtT5liTZQKack/euJQNW8vWsdvFX/kRx9n9QFFujlUKm8usXNJKrpG7mMp1YJVkr99EEFjkzOLevlo26hv/mQ193v0X1ml0JbYFoL1fsQxvBB3cDpNIvJVAm+JhLFZv8AfsW4k31ua+PYYUACuJl94VYEMx4Ym8qHp0vD6dTxIL8eGrmVB4jPgvsbmJn54M49eOcaZYlKQmunFcbuVaL7fTdfVPDrcVgxpHHoGfs7KSTtnc4epPpjJQqAZuGetHssLs=
