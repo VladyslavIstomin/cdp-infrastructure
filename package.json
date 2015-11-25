@@ -1,5 +1,5 @@
 {
-  "name": "InfrastructureTask",
+  "name": "cdp-infrastructure",
   "version": "0.0.6",
   "description": "Task for CDP Infrastructure",
   "scripts": {
