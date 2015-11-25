@@ -1,6 +1,6 @@
 {
   "name": "cdp-infrastructure",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Task for CDP Infrastructure",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
